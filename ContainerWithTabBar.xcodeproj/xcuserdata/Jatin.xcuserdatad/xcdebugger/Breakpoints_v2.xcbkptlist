@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ContainerWithTabBar/VC2.swift"
+            timestampString = "546502526.260664"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "showSignUp(sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ContainerWithTabBar/VC2.swift"
+            timestampString = "546502526.261232"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "signUpClassObject"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ContainerWithTabBar.VC2.(signUpClassObject in _A9B25D1EF9410739BF08046A3023BF16).getter : ContainerWithTabBar.SignupVC"
+                  moduleName = "ContainerWithTabBar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jatin/Desktop/ContainerView-TabBar/ContainerWithTabBar/VC2.swift"
+                  timestampString = "546502072.383637"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "323">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; ContainerWithTabBar.SignupVC in ContainerWithTabBar.VC2.(signUpClassObject in _A9B25D1EF9410739BF08046A3023BF16).getter : ContainerWithTabBar.SignupVC"
+                  moduleName = "ContainerWithTabBar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jatin/Desktop/ContainerView-TabBar/ContainerWithTabBar/VC2.swift"
+                  timestampString = "546502072.387169"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "14">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

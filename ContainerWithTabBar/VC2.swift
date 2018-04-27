@@ -19,11 +19,27 @@ class VC2: UIViewController,getDeatilsFromSignUp
     func passParameters(demoString: String)
     {
         /// Perform required operations here
-        print(demoString)
+        DispatchQueue.main.async {
+            self.vc2ContainerView.isHidden = true
+            self.remove(asChildViewController: self.signUpClassObject)
+            print(demoString)
+        }
     }
     
-
-    @IBOutlet weak var vc2ContainerView: UIView!
+    @IBAction func showSignUpScreen(_ sender: Any) {
+        self.vc2ContainerView.isHidden = false
+        self.add(asChildViewController: self.signUpClassObject)
+    }
+    @IBAction func showSignUp(sender: AnyObject)
+    {
+        
+    }
+    
+    @IBOutlet weak var vc2ContainerView: UIView!{
+        didSet{
+            vc2ContainerView.isHidden = true
+        }
+    }
     
     private lazy var signUpClassObject: SignupVC =
     {
@@ -70,10 +86,9 @@ class VC2: UIViewController,getDeatilsFromSignUp
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+//        self.vc2ContainerView.isHidden = false
+//        self.add(asChildViewController: self.signUpClassObject)
         
-        DispatchQueue.main.async {
-            self.add(asChildViewController: self.signUpClassObject)
-        }
     }
 
     override func didReceiveMemoryWarning() {

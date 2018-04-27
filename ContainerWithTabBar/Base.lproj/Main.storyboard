@@ -20,16 +20,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rEL-KR-oTk">
+                                <rect key="frame" x="37" y="296.5" width="300" height="73"/>
+                                <state key="normal" title="take me to signUp"/>
+                                <connections>
+                                    <action selector="showSignUpScreen:" destination="Fu1-qf-7Wu" eventType="touchUpInside" id="NQc-uB-PFM"/>
+                                </connections>
+                            </button>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KB5-WV-fGq">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                             </containerView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="rEL-KR-oTk" firstAttribute="height" secondItem="GD9-sJ-DU9" secondAttribute="height" multiplier="0.11" id="0PG-ZH-oLB"/>
                             <constraint firstItem="KB5-WV-fGq" firstAttribute="bottom" secondItem="xdc-oJ-m6P" secondAttribute="bottom" id="9bA-6d-rl5"/>
                             <constraint firstItem="KB5-WV-fGq" firstAttribute="top" secondItem="GD9-sJ-DU9" secondAttribute="top" id="F1I-QX-X9A"/>
+                            <constraint firstItem="rEL-KR-oTk" firstAttribute="centerX" secondItem="GD9-sJ-DU9" secondAttribute="centerX" id="VIm-0H-Rho"/>
+                            <constraint firstItem="rEL-KR-oTk" firstAttribute="width" secondItem="GD9-sJ-DU9" secondAttribute="width" multiplier="0.8" id="fWP-Hc-xGO"/>
                             <constraint firstItem="xdc-oJ-m6P" firstAttribute="trailing" secondItem="KB5-WV-fGq" secondAttribute="trailing" id="hRL-SY-Rqu"/>
                             <constraint firstItem="KB5-WV-fGq" firstAttribute="leading" secondItem="xdc-oJ-m6P" secondAttribute="leading" id="p9J-EH-3BH"/>
+                            <constraint firstItem="rEL-KR-oTk" firstAttribute="centerY" secondItem="GD9-sJ-DU9" secondAttribute="centerY" id="tcM-3e-JWc"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="xdc-oJ-m6P"/>
                     </view>
@@ -119,6 +130,7 @@
                             <constraint firstItem="wFy-Ll-9Eq" firstAttribute="width" secondItem="zwW-Kg-jvC" secondAttribute="width" multiplier="0.8" id="iyn-8Y-oPb"/>
                             <constraint firstItem="wFy-Ll-9Eq" firstAttribute="height" secondItem="zwW-Kg-jvC" secondAttribute="height" multiplier="0.1" id="qWz-jD-NaC"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="MOP-ti-acF"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vis-3g-hQv" userLabel="First Responder" sceneMemberID="firstResponder"/>
