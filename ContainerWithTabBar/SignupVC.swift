@@ -1,14 +1,19 @@
 //
-//  VC3.swift
+//  SignupVC.swift
 //  ContainerWithTabBar
 //
-//  Created by IosDeveloper on 23/01/18.
+//  Created by IosDeveloper on 27/04/18.
 //  Copyright © 2018 iOSDeveloper. All rights reserved.
 //
 
 import UIKit
 
-class VC3: UIViewController {
+protocol getDeatilsFromSignUp : class {
+    func passParameters(demoString:String)
+}
+
+class SignupVC: UIViewController {
+    var delegate : getDeatilsFromSignUp?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +27,9 @@ class VC3: UIViewController {
     }
     
 
+    @IBAction func submitAction(_ sender: UIButton) {
+        delegate?.passParameters(demoString: "your pasowrd or whatever you want to pass")
+    }
     /*
     // MARK: - Navigation
 
