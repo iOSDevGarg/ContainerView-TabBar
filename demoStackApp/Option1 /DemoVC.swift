@@ -1,14 +1,14 @@
 //
-//  mainTabController.swift
-//  ContainerWithTabBar
+//  DemoVC.swift
+//  demoStackApp
 //
-//  Created by IosDeveloper on 23/01/18.
-//  Copyright © 2018 iOSDeveloper. All rights reserved.
+//  Created by IosDeveloper on 11/06/18.
+//  Copyright © 2018 iosGeek. All rights reserved.
 //
 
 import UIKit
 
-class mainTabController: UITabBarController {
+class DemoVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +21,11 @@ class mainTabController: UITabBarController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    @IBAction func backToPreviousScreen(_ sender: UIButton) {
+        self.navigationController?.popViewController(animated: true)
+    }
+    
+    
     /*
     // MARK: - Navigation
 

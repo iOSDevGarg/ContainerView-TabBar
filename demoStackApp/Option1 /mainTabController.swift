@@ -1,14 +1,14 @@
 //
-//  VC2.swift
-//  ContainerWithTabBar
+//  mainTabController.swift
+//  demoStackApp
 //
-//  Created by IosDeveloper on 23/01/18.
-//  Copyright © 2018 iOSDeveloper. All rights reserved.
+//  Created by IosDeveloper on 11/06/18.
+//  Copyright © 2018 iosGeek. All rights reserved.
 //
 
 import UIKit
 
-class VC2: UIViewController {
+class mainTabController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
